@@ -1,9 +1,40 @@
-#btn {
-    background-color: chocolate;
+.boxes{
+    width: 500px;
+    height: 500px;
+    background-color: #f0f0f0;
+    position: relative;
 }
-.title {
-    background-color: orange;
+.box{
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 22px;
 }
-p {
-    color: red;
+.box1{
+    top:0;
+    left:0;
+    margin: 10px 10px;
+    background-color:chartreuse;
+}
+.box2{
+    top:0;
+    right:0;
+    margin: 10px 10px;
+    background-color:orange;
+}
+
+.box3{
+    bottom:0;
+    left:0;
+    margin: 10px 10px;
+    background-color:red;
+}
+.box4{
+    bottom:0;
+    right:0;
+    margin: 10px 10px;
+    background-color:purple;
 }
